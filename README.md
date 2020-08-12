@@ -27,7 +27,15 @@ It will install `pylint`, `black`, and `jupyter` to enable linting, auto-formatt
 
 ## Usage
 
-TBD
+Create a `.env` file to store your alpha vantage api key and a ticker.
+
+    # .env
+    ALPHA_VANTAGE_API_KEY="xxx"
+    TICKER_NAME="yyy"
+
+### ARIMA
+
+    python time_series_analysis.py
 
 <hr>
 
