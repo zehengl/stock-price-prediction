@@ -57,15 +57,15 @@ Run the modelling script
 
 ### Price Action History
 
-![](examples\history.ABX.TO.png)
+![](examples/history.ABX.TO.png)
 
 ### Time Series Analysis
 
-![](examples\arima.ABX.TO.png)
+![](examples/arima.ABX.TO.png)
 
 ### Predictive Modelling
 
-![](examples\prediction.ABX.TO.png)
+![](examples/prediction.ABX.TO.png)
 
 <hr>
 
