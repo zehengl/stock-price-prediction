@@ -1,3 +1,7 @@
 __pycache__
 .env
+/arima.*.png
+/history.*.png
+models
+/prediction.*.png
 venv

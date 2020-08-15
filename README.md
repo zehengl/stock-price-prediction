@@ -18,24 +18,54 @@ An attempt to predict stock price
 
 ## Install
 
+Create a virtual environment.
+
     python -m venv venv
     .\venv\Scripts\activate
+
+Next go to [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/) and install PyTorch. For example, if you don't have CUDA,
+
+    pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+
+Then install dependencies.
+
     pip install -r .\requirements.txt
 
-Use `pip install -r requirements-dev.txt` for development.
-It will install `pylint`, `black`, and `jupyter` to enable linting, auto-formatting, and notebook experience.
+> Use `pip install -r requirements-dev.txt` for development.
+> It will install `pylint`, `black`, and `jupyter` to enable linting, auto-formatting, and notebook experience.
 
 ## Usage
 
 Create a `.env` file to store your alpha vantage api key and a ticker.
 
     # .env
+    # required
     ALPHA_VANTAGE_API_KEY="xxx"
     TICKER_NAME="yyy"
 
-### ARIMA
+    # optional and the defaults
+    CYC_LEN=20
+    SEED=2020
+    VALID_PCT=.1
+    LAYERS="[200, 100]"
 
-    python time_series_analysis.py
+Run the modelling script
+
+    python modelling.py
+
+## Example Results
+
+### Price Action History
+
+![](examples\history.ABX.TO.png)
+
+### Time Series Analysis
+
+![](examples\arima.ABX.TO.png)
+
+### Predictive Modelling
+
+![](examples\prediction.ABX.TO.png)
 
 <hr>
 
