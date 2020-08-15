@@ -36,6 +36,8 @@ Then install dependencies.
 
 ## Usage
 
+Go to [https://www.alphavantage.co/support/#api-key](https://www.alphavantage.co/support/#api-key) and claim your API key.
+
 Create a `.env` file to store your alpha vantage api key and a ticker.
 
     # .env
