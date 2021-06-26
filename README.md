@@ -69,15 +69,9 @@ Run the modelling script
 
 ![](examples/prediction.ABX.TO.png)
 
-<hr>
-
-<sup>
-
 ## Credits
 
 - [Bear Logo][1] and [Bull Logo][2] by [pongsakorn tan][3]
-
-</sup>
 
 [1]: https://www.iconfinder.com/icons/4591876/animal_bear_carnivore_cartoon_fauna_head_zoo_icon
 [2]: https://www.iconfinder.com/icons/4591900/animal_buffalo_cape_cartoon_fauna_herbivore_zoo_icon
