@@ -23,16 +23,12 @@ Create a virtual environment.
     python -m venv venv
     .\venv\Scripts\activate
 
-Next go to [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/) and install PyTorch. For example, if you don't have CUDA,
-
-    pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
-
 Then install dependencies.
 
     pip install -r .\requirements.txt
 
 > Use `pip install -r requirements-dev.txt` for development.
-> It will install `pylint`, `black`, and `jupyter` to enable linting, auto-formatting, and notebook experience.
+> It will install `pylint`, `black`, and `jupyterlab` to enable linting, auto-formatting, and notebook experience.
 
 ## Usage
 
