@@ -122,7 +122,7 @@ print(f"smape of volume [arima]: {smape(test['volume'], forecasts_volume)}")
 fig, axes = plt.subplots(nrows=5, ncols=1, figsize=(20, 12), sharex=True)
 fig.suptitle(f"ARIMA Model of {ticker_name}")
 
-sns.lineplot(test["index"], forecasts_high, label="Arima Open Price", ax=axes[0])
+sns.lineplot(test["index"], forecasts_open, label="Arima Open Price", ax=axes[0])
 sns.lineplot(test["index"], test["open"], label="Actual Open Price", ax=axes[0])
 
 sns.lineplot(test["index"], forecasts_high, label="Arima High Price", ax=axes[1])
