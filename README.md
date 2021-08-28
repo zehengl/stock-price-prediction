@@ -13,7 +13,7 @@ An attempt to predict stock price
 
 ## Environment
 
-- Python 3.7
+- Python 3.9
 - Windows 10
 
 ## Install
