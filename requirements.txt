@@ -1,6 +1,6 @@
 fastai==1.0.61
 pandas-datareader==0.10.0
-pmdarima==1.8.5
+pmdarima==2.0.1
 python-dotenv==0.20.0
 seaborn==0.11.2
 torch==1.12.1
