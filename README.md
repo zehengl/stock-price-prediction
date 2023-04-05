@@ -1,6 +1,6 @@
 <div align="center">
-    <img src="https://cdn3.iconfinder.com/data/icons/animal-flat-colors/64/bear-512.png" alt="logo" height="96">
-    <img src="https://cdn3.iconfinder.com/data/icons/animal-flat-colors/64/bufalo-512.png" alt="logo" height="96">
+    <img src="https://cdn3.iconfinder.com/data/icons/animal-flat-colors/64/bear-512.png" alt="logo" height="128">
+    <img src="https://cdn3.iconfinder.com/data/icons/animal-flat-colors/64/bufalo-512.png" alt="logo" height="128">
 </div>
 
 # stock-price-prediction
@@ -20,25 +20,21 @@ An attempt to predict stock price
 
 Create a virtual environment.
 
-    python -m venv venv
-    .\venv\Scripts\activate
+    python -m venv .venv
+    .\.venv\Scripts\activate
 
 Then install dependencies.
 
     pip install -r .\requirements.txt
 
 > Use `pip install -r requirements-dev.txt` for development.
-> It will install `pylint`, `black`, and `jupyterlab` to enable linting, auto-formatting, and notebook experience.
 
 ## Usage
 
-Go to [https://www.alphavantage.co/support/#api-key](https://www.alphavantage.co/support/#api-key) and claim your API key.
-
-Create a `.env` file to store your alpha vantage api key and a ticker.
+Create a `.env` file to store your ticker name.
 
     # .env
     # required
-    ALPHA_VANTAGE_API_KEY="xxx"
     TICKER_NAME="yyy"
 
     # optional and the defaults

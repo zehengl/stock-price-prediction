@@ -4,4 +4,4 @@ __pycache__
 /history.*.png
 models
 /prediction.*.png
-venv
+.venv
