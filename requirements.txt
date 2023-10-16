@@ -1,4 +1,4 @@
-fastai==2.7.12
+fastai==2.7.13
 pandas-datareader==0.10.0
 pandas==2.1.1
 pmdarima==2.0.3
