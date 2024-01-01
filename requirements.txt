@@ -3,7 +3,7 @@ pandas-datareader==0.10.0
 pandas==2.1.4
 pmdarima==2.0.4
 python-dotenv==1.0.0
-seaborn==0.13.0
+seaborn==0.13.1
 torch==2.1.2
 torchvision==0.16.2
 tqdm==4.66.1
