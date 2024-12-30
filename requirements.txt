@@ -7,4 +7,4 @@ seaborn==0.13.2
 torch==2.5.1
 torchvision==0.20.1
 tqdm==4.67.1
-yfinance==0.2.50
+yfinance==0.2.51
