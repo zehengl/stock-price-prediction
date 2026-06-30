@@ -1,6 +1,6 @@
 fastai==2.8.7
 pandas-datareader==0.11.1
-pandas==3.0.4
+pandas==3.0.3
 pmdarima==2.1.1
 python-dotenv==1.2.2
 seaborn==0.13.2
