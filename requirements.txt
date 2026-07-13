@@ -4,7 +4,7 @@ pandas==3.0.3
 pmdarima==2.1.1
 python-dotenv==1.2.2
 seaborn==0.13.2
-torch==2.12.1
-torchvision==0.27.1
-tqdm==4.68.3
+torch==2.13.0
+torchvision==0.28.0
+tqdm==4.68.4
 yfinance==1.5.1
