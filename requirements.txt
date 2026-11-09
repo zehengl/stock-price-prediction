@@ -1,10 +1,10 @@
 fastai==2.8.12
 pandas-datareader==0.11.1
-pandas==3.1.0
+pandas==3.1.1
 pmdarima==2.1.1
 python-dotenv==1.2.4
 seaborn==0.13.2
 torch==2.15.0
 torchvision==0.29.2
 tqdm==4.70.1
-yfinance==1.7.0
+yfinance==1.8.0
